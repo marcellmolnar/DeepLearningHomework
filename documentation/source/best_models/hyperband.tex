@@ -1,0 +1,17 @@
+\begin{table}[htbp]\scriptsize
+\begin{tabular}{|p{0.03\textwidth}p{0.025\textwidth}p{0.01\textwidth}p{0.01\textwidth}p{0.01\textwidth}p{0.035\textwidth}p{0.02\textwidth}p{0.02\textwidth}p{0.02\textwidth}p{0.03\textwidth}p{0.03\textwidth}|}\hline
+dr & af & clf1 & clf2 & dln & oa & lr & a & va & l & vl \\ \hline
+$0.22$ & relu & $16$ & $32$ & $256$ & RMSprop & $0.001$ & $0.921$ & $0.915$ & $0.416$ & $0.35$ \\
+$0.0142$ & relu & $16$ & $64$ & $128$ & SGD & $0.01$ & $0.905$ & $0.897$ & $0.743$ & $0.585$ \\
+$0.095$ & relu & $16$ & $64$ & $256$ & Adam & $0.01$ & $0.881$ & $0.885$ & $0.454$ & $0.398$ \\
+$0.363$ & relu & $64$ & $128$ & $128$ & SGD & $0.01$ & $0.85$ & $0.868$ & $0.846$ & $0.568$ \\
+$0.23$ & relu & $16$ & $16$ & $256$ & RMSprop & $0.01$ & $0.828$ & $0.846$ & $0.579$ & $0.515$ \\
+$0.317$ & relu & $32$ & $128$ & $64$ & RMSprop & $0.01$ & $0.823$ & $0.85$ & $0.689$ & $0.508$ \\
+$0.327$ & relu & $16$ & $16$ & $64$ & SGD & $0.01$ & $0.813$ & $0.846$ & $0.969$ & $0.609$ \\
+$0.144$ & relu & $64$ & $128$ & $64$ & SGD & $0.01$ & $0.793$ & $0.819$ & $0.827$ & $0.57$ \\
+$0.281$ & relu & $16$ & $32$ & $256$ & SGD & $0.01$ & $0.787$ & $0.824$ & $0.809$ & $0.579$ \\
+$0.473$ & relu & $128$ & $16$ & $256$ & Adam & $0.01$ & $0.771$ & $0.825$ & $0.748$ & $0.567$ \\ \hline
+\end{tabular}\vspace{0.1cm}
+	\caption{Best models with HyperBand on FASHION MNIST}
+	\label{tab:hyperband_params}
+\end{table}
