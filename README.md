@@ -6,8 +6,8 @@ Homework for Deep Learning in Practice with Python and LUA (VITMAV45)
 
 ### Group: Deep learning boys (two-person team)
 
-*   Molnár Marcell
-*   Poleczki Ákos
+*   Molnár Marcell (final semester)
+*   Poleczki Ákos (final semester)
 
 Presentation video: https://youtu.be/YQF5RxH_PU4
 
